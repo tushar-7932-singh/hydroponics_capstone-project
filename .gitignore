@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node.js
+node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Generated datasets, models, and runtime artifacts
+data/datasets/
+data/processed/
+data/uploads/
+backend/uploads/
+data/reference_images/*
+!data/reference_images/.gitkeep
+models/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.log
+data/raw/
+data/datasets/
+data/processed/
+backend/uploads/
